@@ -1,4 +1,7 @@
 var Sequelize = require("sequelize");
+var mysql = require("mysql"); 
+var connection; 
+
 
 // Creates mySQL connection using Sequelize, the empty string in the third argument spot is our password.
 var sequelize = new Sequelize("graph_master_db", "root", "", {
@@ -22,6 +25,8 @@ if (process.env.JAWSDB_URL) {
     database: 'todoagain_db'
   });
 };
+
+connection.connect(); 
 
 // Exports the connection for other files to use
 module.exports = sequelize;
