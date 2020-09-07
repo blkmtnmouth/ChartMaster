@@ -2,9 +2,9 @@
 
 https://morning-eyrie-42141.herokuapp.com/
 
-Project 2 repository
-working project repository https://github.com/blkmtnmouth/Project2
-Finalized application respository https://github.com/blkmtnmouth/Chartmaster
+Project 2 repository <br>
+working project repository https://github.com/blkmtnmouth/Project2 <br>
+Finalized application respository https://github.com/blkmtnmouth/Chartmaster<br>
 
 Chart Master is an app that lets you easily create a pie, graph, or bar chart with your custom data. 
 
