@@ -12,5 +12,16 @@ var sequelize = new Sequelize("graph_master_db", "root", "", {
   }
 });
 
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'hacktheplanet',
+    database: 'todoagain_db'
+  });
+};
+
 // Exports the connection for other files to use
 module.exports = sequelize;
