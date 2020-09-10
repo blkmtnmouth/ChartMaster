@@ -1,5 +1,5 @@
 //Dependency
-const db = require("../models/index");
+const db = require("../models");
 const router = require('express').Router();
 
 // Get request to send all data from database
