@@ -21,6 +21,14 @@ function setType(type) {
   }); 
 };
 
+// search button
+$('#searchBtn').on('click', function(event) {
+  event.preventDefault();
+  let value = $('#search-input')[0].value
+  console.log(value);
+  window.location.href = '/api/graph/' + value;
+});
+
 // generate chart button
 $("#generateBtn").on("click", async function (event) {
   event.preventDefault();
