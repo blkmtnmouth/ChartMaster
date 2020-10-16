@@ -1,7 +1,7 @@
 # Chart Master
 
 #### WEB DEPLOYMENT
-https://still-anchorage-95326.herokuapp.com <br>
+https://graph-master.herokuapp.com/ <br>
 <br>
 
 #### Project 2 repository <br>
